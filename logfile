@@ -1,0 +1,956 @@
+2017-12-12 15:42:52,354 DEBUG    Fetching: GET https://oauth.reddit.com/r/Test/hot
+2017-12-12 15:42:52,354 DEBUG    Data: None
+2017-12-12 15:42:52,354 DEBUG    Params: {'limit': 150, 'raw_json': 1}
+2017-12-12 15:42:52,356 DEBUG    Starting new HTTPS connection (1): www.reddit.com
+2017-12-12 15:42:53,101 DEBUG    https://www.reddit.com:443 "POST /api/v1/access_token HTTP/1.1" 200 105
+2017-12-12 15:42:53,105 DEBUG    Starting new HTTPS connection (1): oauth.reddit.com
+2017-12-12 15:42:54,000 DEBUG    https://oauth.reddit.com:443 "GET /r/Test/hot?limit=150&raw_json=1 HTTP/1.1" 200 72285
+2017-12-12 15:42:54,105 DEBUG    Response: 200 (72285 bytes)
+2017-12-12 15:42:54,120 INFO     G3GPn
+2017-12-12 15:42:54,121 DEBUG    Starting new HTTPS connection (1): api.imgur.com
+2017-12-12 15:42:54,289 DEBUG    https://api.imgur.com:443 "GET /3/credits HTTP/1.1" 200 None
+2017-12-12 15:42:54,292 DEBUG    Starting new HTTPS connection (1): api.imgur.com
+2017-12-12 15:42:54,477 DEBUG    https://api.imgur.com:443 "GET /3/album/G3GPn HTTP/1.1" 200 554
+2017-12-12 15:42:54,480 INFO     Tqwnz
+2017-12-12 15:42:54,482 DEBUG    Starting new HTTPS connection (1): api.imgur.com
+2017-12-12 15:42:54,642 DEBUG    https://api.imgur.com:443 "GET /3/credits HTTP/1.1" 200 None
+2017-12-12 15:42:54,644 DEBUG    Starting new HTTPS connection (1): api.imgur.com
+2017-12-12 15:42:54,822 DEBUG    https://api.imgur.com:443 "GET /3/album/Tqwnz HTTP/1.1" 200 916
+2017-12-12 15:42:54,826 INFO     tpYLs
+2017-12-12 15:42:54,828 DEBUG    Starting new HTTPS connection (1): api.imgur.com
+2017-12-12 15:42:54,986 DEBUG    https://api.imgur.com:443 "GET /3/credits HTTP/1.1" 200 None
+2017-12-12 15:42:54,988 DEBUG    Starting new HTTPS connection (1): api.imgur.com
+2017-12-12 15:42:55,057 DEBUG    https://api.imgur.com:443 "GET /3/album/tpYLs HTTP/1.1" 404 137
+2017-12-12 15:42:55,058 INFO     Bad Link Error
+2017-12-12 15:42:55,059 DEBUG    Fetching: GET https://oauth.reddit.com/r/Test/hot
+2017-12-12 15:42:55,059 DEBUG    Data: None
+2017-12-12 15:42:55,059 DEBUG    Params: {'limit': 150, 'after': 't3_7ik46y', 'raw_json': 1}
+2017-12-12 15:42:55,813 DEBUG    https://oauth.reddit.com:443 "GET /r/Test/hot?limit=150&after=t3_7ik46y&raw_json=1 HTTP/1.1" 200 38868
+2017-12-12 15:42:55,857 DEBUG    Response: 200 (38868 bytes)
+2017-12-12 15:44:35,873 DEBUG    Fetching: GET https://oauth.reddit.com/r/Test/hot
+2017-12-12 15:44:35,873 DEBUG    Data: None
+2017-12-12 15:44:35,873 DEBUG    Params: {'limit': 150, 'raw_json': 1}
+2017-12-12 15:44:36,650 DEBUG    https://oauth.reddit.com:443 "GET /r/Test/hot?limit=150&raw_json=1 HTTP/1.1" 200 72284
+2017-12-12 15:44:36,773 DEBUG    Response: 200 (72284 bytes)
+2017-12-12 15:44:36,790 INFO     G3GPn
+2017-12-12 15:44:36,792 DEBUG    Starting new HTTPS connection (1): api.imgur.com
+2017-12-12 15:44:36,995 DEBUG    https://api.imgur.com:443 "GET /3/credits HTTP/1.1" 200 None
+2017-12-12 15:44:37,000 DEBUG    Starting new HTTPS connection (1): api.imgur.com
+2017-12-12 15:44:37,222 DEBUG    https://api.imgur.com:443 "GET /3/album/G3GPn HTTP/1.1" 200 554
+2017-12-12 15:44:37,224 INFO     Tqwnz
+2017-12-12 15:44:37,226 DEBUG    Starting new HTTPS connection (1): api.imgur.com
+2017-12-12 15:44:37,585 DEBUG    https://api.imgur.com:443 "GET /3/credits HTTP/1.1" 200 None
+2017-12-12 15:44:37,590 DEBUG    Starting new HTTPS connection (1): api.imgur.com
+2017-12-12 15:44:37,794 DEBUG    https://api.imgur.com:443 "GET /3/album/Tqwnz HTTP/1.1" 200 916
+2017-12-12 15:44:37,796 INFO     tpYLs
+2017-12-12 15:44:37,801 DEBUG    Starting new HTTPS connection (1): api.imgur.com
+2017-12-12 15:44:37,988 DEBUG    https://api.imgur.com:443 "GET /3/credits HTTP/1.1" 200 None
+2017-12-12 15:44:37,991 DEBUG    Starting new HTTPS connection (1): api.imgur.com
+2017-12-12 15:44:38,182 DEBUG    https://api.imgur.com:443 "GET /3/album/tpYLs HTTP/1.1" 404 137
+2017-12-12 15:44:38,183 INFO     Bad Link Error
+2017-12-12 15:44:38,184 DEBUG    Fetching: GET https://oauth.reddit.com/r/Test/hot
+2017-12-12 15:44:38,184 DEBUG    Data: None
+2017-12-12 15:44:38,184 DEBUG    Params: {'limit': 150, 'after': 't3_7ik46y', 'raw_json': 1}
+2017-12-12 15:44:38,903 DEBUG    https://oauth.reddit.com:443 "GET /r/Test/hot?limit=150&after=t3_7ik46y&raw_json=1 HTTP/1.1" 200 38872
+2017-12-12 15:44:38,944 DEBUG    Response: 200 (38872 bytes)
+2017-12-12 15:46:18,960 DEBUG    Fetching: GET https://oauth.reddit.com/r/Test/hot
+2017-12-12 15:46:18,960 DEBUG    Data: None
+2017-12-12 15:46:18,960 DEBUG    Params: {'limit': 150, 'raw_json': 1}
+2017-12-12 15:46:19,867 DEBUG    https://oauth.reddit.com:443 "GET /r/Test/hot?limit=150&raw_json=1 HTTP/1.1" 200 72292
+2017-12-12 15:46:19,972 DEBUG    Response: 200 (72292 bytes)
+2017-12-12 15:46:19,986 INFO     G3GPn
+2017-12-12 15:46:19,988 DEBUG    Starting new HTTPS connection (1): api.imgur.com
+2017-12-12 15:46:20,140 DEBUG    https://api.imgur.com:443 "GET /3/credits HTTP/1.1" 200 None
+2017-12-12 15:46:20,143 DEBUG    Starting new HTTPS connection (1): api.imgur.com
+2017-12-12 15:46:20,328 DEBUG    https://api.imgur.com:443 "GET /3/album/G3GPn HTTP/1.1" 200 554
+2017-12-12 15:46:20,331 INFO     Tqwnz
+2017-12-12 15:46:20,332 DEBUG    Starting new HTTPS connection (1): api.imgur.com
+2017-12-12 15:46:20,477 DEBUG    https://api.imgur.com:443 "GET /3/credits HTTP/1.1" 200 None
+2017-12-12 15:46:20,482 DEBUG    Starting new HTTPS connection (1): api.imgur.com
+2017-12-12 15:46:20,632 DEBUG    https://api.imgur.com:443 "GET /3/album/Tqwnz HTTP/1.1" 200 916
+2017-12-12 15:46:20,636 INFO     tpYLs
+2017-12-12 15:46:20,637 DEBUG    Starting new HTTPS connection (1): api.imgur.com
+2017-12-12 15:46:20,792 DEBUG    https://api.imgur.com:443 "GET /3/credits HTTP/1.1" 200 None
+2017-12-12 15:46:20,795 DEBUG    Starting new HTTPS connection (1): api.imgur.com
+2017-12-12 15:46:20,883 DEBUG    https://api.imgur.com:443 "GET /3/album/tpYLs HTTP/1.1" 404 137
+2017-12-12 15:46:20,885 INFO     Bad Link Error
+2017-12-12 15:46:20,885 DEBUG    Fetching: GET https://oauth.reddit.com/r/Test/hot
+2017-12-12 15:46:20,885 DEBUG    Data: None
+2017-12-12 15:46:20,885 DEBUG    Params: {'limit': 150, 'after': 't3_7ik46y', 'raw_json': 1}
+2017-12-12 15:46:21,615 DEBUG    https://oauth.reddit.com:443 "GET /r/Test/hot?limit=150&after=t3_7ik46y&raw_json=1 HTTP/1.1" 200 38860
+2017-12-12 15:46:21,645 DEBUG    Response: 200 (38860 bytes)
+2017-12-12 15:47:40,869 DEBUG    Fetching: GET https://oauth.reddit.com/r/Test/hot
+2017-12-12 15:47:40,869 DEBUG    Data: None
+2017-12-12 15:47:40,869 DEBUG    Params: {'limit': 150, 'raw_json': 1}
+2017-12-12 15:47:40,871 DEBUG    Starting new HTTPS connection (1): www.reddit.com
+2017-12-12 15:47:41,584 DEBUG    https://www.reddit.com:443 "POST /api/v1/access_token HTTP/1.1" 200 105
+2017-12-12 15:47:41,588 DEBUG    Starting new HTTPS connection (1): oauth.reddit.com
+2017-12-12 15:47:42,329 DEBUG    https://oauth.reddit.com:443 "GET /r/Test/hot?limit=150&raw_json=1 HTTP/1.1" 200 72293
+2017-12-12 15:47:42,567 DEBUG    Response: 200 (72293 bytes)
+2017-12-12 15:47:42,582 INFO     G3GPn
+2017-12-12 15:47:42,584 DEBUG    Starting new HTTPS connection (1): api.imgur.com
+2017-12-12 15:47:43,026 DEBUG    https://api.imgur.com:443 "GET /3/credits HTTP/1.1" 200 None
+2017-12-12 15:47:43,029 DEBUG    Starting new HTTPS connection (1): api.imgur.com
+2017-12-12 15:47:43,225 DEBUG    https://api.imgur.com:443 "GET /3/album/G3GPn HTTP/1.1" 200 554
+2017-12-12 15:47:43,229 INFO     Tqwnz
+2017-12-12 15:47:43,231 DEBUG    Starting new HTTPS connection (1): api.imgur.com
+2017-12-12 15:47:43,401 DEBUG    https://api.imgur.com:443 "GET /3/credits HTTP/1.1" 200 None
+2017-12-12 15:47:43,404 DEBUG    Starting new HTTPS connection (1): api.imgur.com
+2017-12-12 15:47:43,588 DEBUG    https://api.imgur.com:443 "GET /3/album/Tqwnz HTTP/1.1" 200 916
+2017-12-12 15:47:43,591 INFO     tpYLs
+2017-12-12 15:47:43,593 DEBUG    Starting new HTTPS connection (1): api.imgur.com
+2017-12-12 15:47:43,777 DEBUG    https://api.imgur.com:443 "GET /3/credits HTTP/1.1" 200 None
+2017-12-12 15:47:43,780 DEBUG    Starting new HTTPS connection (1): api.imgur.com
+2017-12-12 15:47:43,844 DEBUG    https://api.imgur.com:443 "GET /3/album/tpYLs HTTP/1.1" 404 137
+2017-12-12 15:47:43,846 INFO     Bad Link Error
+2017-12-12 15:47:43,847 DEBUG    Fetching: GET https://oauth.reddit.com/r/Test/hot
+2017-12-12 15:47:43,847 DEBUG    Data: None
+2017-12-12 15:47:43,847 DEBUG    Params: {'limit': 150, 'after': 't3_7ik46y', 'raw_json': 1}
+2017-12-12 15:47:44,591 DEBUG    https://oauth.reddit.com:443 "GET /r/Test/hot?limit=150&after=t3_7ik46y&raw_json=1 HTTP/1.1" 200 38868
+2017-12-12 15:47:44,603 DEBUG    Response: 200 (38868 bytes)
+2017-12-12 15:49:33,380 INFO     Loggin in...
+2017-12-12 15:49:33,381 INFO     Logged in!
+2017-12-12 15:49:33,382 INFO     ['7j4irv', '7ihwb9']
+2017-12-12 15:49:33,382 INFO     ['https://imgur.com/a/rABNK', 'https://imgur.com/a/TovkA']
+2017-12-12 15:49:33,382 INFO     Obtaining 25 comments...
+2017-12-12 15:49:33,382 INFO     CHeckingTest
+2017-12-12 15:49:33,382 DEBUG    Fetching: GET https://oauth.reddit.com/r/Test/hot
+2017-12-12 15:49:33,382 DEBUG    Data: None
+2017-12-12 15:49:33,382 DEBUG    Params: {'limit': 150, 'raw_json': 1}
+2017-12-12 15:49:33,383 DEBUG    Starting new HTTPS connection (1): www.reddit.com
+2017-12-12 15:49:34,130 DEBUG    https://www.reddit.com:443 "POST /api/v1/access_token HTTP/1.1" 200 105
+2017-12-12 15:49:34,134 DEBUG    Starting new HTTPS connection (1): oauth.reddit.com
+2017-12-12 15:49:35,106 DEBUG    https://oauth.reddit.com:443 "GET /r/Test/hot?limit=150&raw_json=1 HTTP/1.1" 200 72356
+2017-12-12 15:49:35,202 DEBUG    Response: 200 (72356 bytes)
+2017-12-12 15:49:35,219 INFO     just as test as usual
+2017-12-12 15:49:35,219 INFO     momoiharuko
+2017-12-12 15:49:35,219 INFO     7jae95
+2017-12-12 15:49:35,219 INFO     G3GPn
+2017-12-12 15:49:35,221 DEBUG    Starting new HTTPS connection (1): api.imgur.com
+2017-12-12 15:49:35,380 DEBUG    https://api.imgur.com:443 "GET /3/credits HTTP/1.1" 200 None
+2017-12-12 15:49:35,383 DEBUG    Starting new HTTPS connection (1): api.imgur.com
+2017-12-12 15:49:35,452 DEBUG    https://api.imgur.com:443 "GET /3/album/G3GPn HTTP/1.1" 200 554
+2017-12-12 15:49:35,454 INFO     just as test as usual
+2017-12-12 15:49:35,454 INFO     https://imgur.com/a/G3GPn
+2017-12-12 15:49:35,454 INFO     Imgur Gallery!
+2017-12-12 15:49:35,454 INFO     SS already started
+2017-12-12 15:49:35,454 INFO     Flow of smoke
+2017-12-12 15:49:35,454 INFO     mushroommadman
+2017-12-12 15:49:35,454 INFO     7iwhwg
+2017-12-12 15:49:35,454 INFO     Tqwnz
+2017-12-12 15:49:35,456 DEBUG    Starting new HTTPS connection (1): api.imgur.com
+2017-12-12 15:49:35,617 DEBUG    https://api.imgur.com:443 "GET /3/credits HTTP/1.1" 200 None
+2017-12-12 15:49:35,620 DEBUG    Starting new HTTPS connection (1): api.imgur.com
+2017-12-12 15:49:35,790 DEBUG    https://api.imgur.com:443 "GET /3/album/Tqwnz HTTP/1.1" 200 916
+2017-12-12 15:49:35,791 INFO     Flow of smoke
+2017-12-12 15:49:35,791 INFO     https://imgur.com/a/Tqwnz
+2017-12-12 15:49:35,791 INFO     Imgur Gallery!
+2017-12-12 15:49:35,792 INFO     SS already started
+2017-12-12 15:49:35,792 INFO     Test2
+2017-12-12 15:49:35,792 INFO     sparks39604
+2017-12-12 15:49:35,792 INFO     7ikeup
+2017-12-12 15:49:35,792 INFO     tpYLs
+2017-12-12 15:49:35,794 DEBUG    Starting new HTTPS connection (1): api.imgur.com
+2017-12-12 15:49:35,949 DEBUG    https://api.imgur.com:443 "GET /3/credits HTTP/1.1" 200 None
+2017-12-12 15:49:35,952 DEBUG    Starting new HTTPS connection (1): api.imgur.com
+2017-12-12 15:49:36,033 DEBUG    https://api.imgur.com:443 "GET /3/album/tpYLs HTTP/1.1" 404 137
+2017-12-12 15:49:36,034 INFO     Bad Link Error
+2017-12-12 15:49:36,035 INFO     Only 1 picture in Gallery
+2017-12-12 15:49:36,035 DEBUG    Fetching: GET https://oauth.reddit.com/r/Test/hot
+2017-12-12 15:49:36,035 DEBUG    Data: None
+2017-12-12 15:49:36,035 DEBUG    Params: {'limit': 150, 'after': 't3_7ik46y', 'raw_json': 1}
+2017-12-12 15:49:36,675 DEBUG    https://oauth.reddit.com:443 "GET /r/Test/hot?limit=150&after=t3_7ik46y&raw_json=1 HTTP/1.1" 200 38869
+2017-12-12 15:49:36,694 DEBUG    Response: 200 (38869 bytes)
+2017-12-12 15:52:49,032 INFO     Loggin in...
+2017-12-12 15:52:49,034 INFO     Logged in!
+2017-12-12 15:52:49,034 INFO     ['7j4irv', '7ihwb9']
+2017-12-12 15:52:49,034 INFO     ['https://imgur.com/a/rABNK', 'https://imgur.com/a/TovkA']
+2017-12-12 15:52:49,034 INFO     Obtaining 25 comments...
+2017-12-12 15:52:49,034 INFO     CHeckingTest
+2017-12-12 15:52:50,537 INFO     just as test as usual
+2017-12-12 15:52:50,537 INFO     momoiharuko
+2017-12-12 15:52:50,537 INFO     7jae95
+2017-12-12 15:52:50,537 INFO     G3GPn
+2017-12-12 15:52:50,956 INFO     just as test as usual
+2017-12-12 15:52:50,956 INFO     https://imgur.com/a/G3GPn
+2017-12-12 15:52:50,956 INFO     Imgur Gallery!
+2017-12-12 15:52:50,956 INFO     SS already started
+2017-12-12 15:52:50,956 INFO     Flow of smoke
+2017-12-12 15:52:50,956 INFO     mushroommadman
+2017-12-12 15:52:50,956 INFO     7iwhwg
+2017-12-12 15:52:50,956 INFO     Tqwnz
+2017-12-12 15:52:51,306 INFO     Flow of smoke
+2017-12-12 15:52:51,307 INFO     https://imgur.com/a/Tqwnz
+2017-12-12 15:52:51,307 INFO     Imgur Gallery!
+2017-12-12 15:52:51,307 INFO     SS already started
+2017-12-12 15:52:51,307 INFO     Test2
+2017-12-12 15:52:51,307 INFO     sparks39604
+2017-12-12 15:52:51,307 INFO     7ikeup
+2017-12-12 15:52:51,308 INFO     tpYLs
+2017-12-12 15:52:52,028 INFO     Bad Link Error
+2017-12-12 15:52:52,028 INFO     Only 1 picture in Gallery
+2017-12-12 15:52:52,875 INFO     Finished checkinging - waiting 1 minute
+2017-12-12 15:53:52,875 INFO     Obtaining 25 comments...
+2017-12-12 15:53:52,875 INFO     CHeckingTest
+2017-12-12 15:53:53,837 INFO     just as test as usual
+2017-12-12 15:53:53,837 INFO     momoiharuko
+2017-12-12 15:53:53,837 INFO     7jae95
+2017-12-12 15:53:53,838 INFO     G3GPn
+2017-12-12 15:53:54,208 INFO     just as test as usual
+2017-12-12 15:53:54,208 INFO     https://imgur.com/a/G3GPn
+2017-12-12 15:53:54,208 INFO     Imgur Gallery!
+2017-12-12 15:53:54,209 INFO     SS already started
+2017-12-12 15:53:54,209 INFO     Flow of smoke
+2017-12-12 15:53:54,209 INFO     mushroommadman
+2017-12-12 15:53:54,209 INFO     7iwhwg
+2017-12-12 15:53:54,209 INFO     Tqwnz
+2017-12-12 15:53:54,538 INFO     Flow of smoke
+2017-12-12 15:53:54,538 INFO     https://imgur.com/a/Tqwnz
+2017-12-12 15:53:54,538 INFO     Imgur Gallery!
+2017-12-12 15:53:54,538 INFO     SS already started
+2017-12-12 15:53:54,539 INFO     Test2
+2017-12-12 15:53:54,539 INFO     sparks39604
+2017-12-12 15:53:54,539 INFO     7ikeup
+2017-12-12 15:53:54,539 INFO     tpYLs
+2017-12-12 15:53:54,792 INFO     Bad Link Error
+2017-12-12 15:53:54,792 INFO     Only 1 picture in Gallery
+2017-12-12 15:53:55,652 INFO     Finished checkinging - waiting 1 minute
+2017-12-12 15:54:55,652 INFO     Obtaining 25 comments...
+2017-12-12 15:54:55,652 INFO     CHeckingTest
+2017-12-12 15:54:56,633 INFO     just as test as usual
+2017-12-12 15:54:56,633 INFO     momoiharuko
+2017-12-12 15:54:56,633 INFO     7jae95
+2017-12-12 15:54:56,633 INFO     G3GPn
+2017-12-12 15:54:57,005 INFO     just as test as usual
+2017-12-12 15:54:57,005 INFO     https://imgur.com/a/G3GPn
+2017-12-12 15:54:57,006 INFO     Imgur Gallery!
+2017-12-12 15:54:57,006 INFO     SS already started
+2017-12-12 15:54:57,007 INFO     Flow of smoke
+2017-12-12 15:54:57,007 INFO     mushroommadman
+2017-12-12 15:54:57,007 INFO     7iwhwg
+2017-12-12 15:54:57,007 INFO     Tqwnz
+2017-12-12 15:54:57,374 INFO     Flow of smoke
+2017-12-12 15:54:57,374 INFO     https://imgur.com/a/Tqwnz
+2017-12-12 15:54:57,375 INFO     Imgur Gallery!
+2017-12-12 15:54:57,375 INFO     SS already started
+2017-12-12 15:54:57,375 INFO     Test2
+2017-12-12 15:54:57,375 INFO     sparks39604
+2017-12-12 15:54:57,375 INFO     7ikeup
+2017-12-12 15:54:57,375 INFO     tpYLs
+2017-12-12 15:54:57,635 INFO     Bad Link Error
+2017-12-12 15:54:57,637 INFO     Only 1 picture in Gallery
+2017-12-12 15:54:58,338 INFO     Finished checkinging - waiting 1 minute
+2017-12-13 12:56:39,037 INFO     Loggin in...
+2017-12-13 12:56:40,279 INFO     Logged in!
+2017-12-13 12:56:40,294 INFO     posts_replied_to: ['7j4irv', '7ihwb9']
+2017-12-13 12:56:40,294 INFO     saved_gallerys: ['https://imgur.com/a/rABNK', 'https://imgur.com/a/TovkA']
+2017-12-13 12:56:40,295 INFO     Checking sub r/Test
+2017-12-13 12:56:40,295 INFO     Obtaining 150 comments...
+2017-12-13 12:56:42,147 INFO     qs9Wm
+2017-12-13 12:56:42,601 INFO     Imgur Gallery!
+2017-12-13 12:56:42,601 INFO     Post Title:test
+2017-12-13 12:56:42,602 INFO     Post url:https://imgur.com/a/qs9Wm
+2017-12-13 12:56:42,602 INFO     Post author:ZZZ_123
+2017-12-13 12:56:42,602 INFO     Post id:7jfhrs
+2017-12-13 12:56:42,604 INFO     Saving image
+2017-12-13 12:56:42,993 INFO     image saved!
+2017-12-13 12:56:42,993 INFO     Saving image
+2017-12-13 12:56:43,296 INFO     image saved!
+2017-12-13 12:56:43,298 INFO     Saving image
+2017-12-13 12:56:43,588 INFO     image saved!
+2017-12-13 12:56:43,589 INFO     Saving image
+2017-12-13 12:56:44,035 INFO     image saved!
+2017-12-13 12:56:44,035 INFO     Saving image
+2017-12-13 12:56:44,599 INFO     image saved!
+2017-12-13 12:56:44,599 INFO     Saving image
+2017-12-13 12:56:45,022 INFO     image saved!
+2017-12-13 12:56:45,022 INFO     Saving image
+2017-12-13 12:56:45,408 INFO     image saved!
+2017-12-13 12:56:45,408 INFO     Saving image
+2017-12-13 12:56:45,777 INFO     image saved!
+2017-12-13 12:56:45,777 INFO     Saving image
+2017-12-13 12:56:46,176 INFO     image saved!
+2017-12-13 12:56:46,176 INFO     Saving image
+2017-12-13 12:56:46,625 INFO     image saved!
+2017-12-13 12:56:46,625 INFO     Saving image
+2017-12-13 12:56:47,089 INFO     image saved!
+2017-12-13 12:56:47,089 INFO     Saving image
+2017-12-13 12:56:47,474 INFO     image saved!
+2017-12-13 12:56:47,474 INFO     Saving image
+2017-12-13 12:56:47,966 INFO     image saved!
+2017-12-13 12:56:47,966 INFO     Saving image
+2017-12-13 12:56:48,450 INFO     image saved!
+2017-12-13 12:56:48,451 INFO     Saving image
+2017-12-13 12:56:49,008 INFO     image saved!
+2017-12-13 12:57:53,398 INFO     Loggin in...
+2017-12-13 12:57:53,399 INFO     Logged in!
+2017-12-13 12:57:53,400 INFO     posts_replied_to: ['7j4irv', '7ihwb9', '7jfhrs']
+2017-12-13 12:57:53,400 INFO     saved_gallerys: ['https://imgur.com/a/rABNK', 'https://imgur.com/a/TovkA', 'https://imgur.com/a/qs9Wm']
+2017-12-13 12:57:53,400 INFO     Checking sub r/Test
+2017-12-13 12:57:53,400 INFO     Obtaining 150 comments...
+2017-12-13 12:57:55,329 INFO     G3GPn
+2017-12-13 12:57:55,742 INFO     Imgur Gallery!
+2017-12-13 12:57:55,742 INFO     Post Title:just as test as usual
+2017-12-13 12:57:55,742 INFO     Post url:https://imgur.com/a/G3GPn
+2017-12-13 12:57:55,742 INFO     Post author:momoiharuko
+2017-12-13 12:57:55,742 INFO     Post id:7jae95
+2017-12-13 12:57:55,743 INFO     SlideShow already saved ignoring
+2017-12-13 12:57:56,514 INFO     Tqwnz
+2017-12-13 12:57:57,459 INFO     Imgur Gallery!
+2017-12-13 12:57:57,459 INFO     Post Title:Flow of smoke
+2017-12-13 12:57:57,459 INFO     Post url:https://imgur.com/a/Tqwnz
+2017-12-13 12:57:57,459 INFO     Post author:mushroommadman
+2017-12-13 12:57:57,459 INFO     Post id:7iwhwg
+2017-12-13 12:57:57,459 INFO     SlideShow already saved ignoring
+2017-12-13 12:57:57,460 INFO     tpYLs
+2017-12-13 12:57:57,800 INFO     Bad Link Error
+2017-12-13 12:57:57,801 INFO     Only 1 picture in Gallery ignoring
+2017-12-13 12:57:57,801 INFO     Finished checkinging - waiting 1 minute
+2017-12-13 12:58:57,801 INFO     Checking sub r/Test
+2017-12-13 12:58:57,801 INFO     Obtaining 150 comments...
+2017-12-13 12:58:58,659 INFO     G3GPn
+2017-12-13 12:58:59,074 INFO     Imgur Gallery!
+2017-12-13 12:58:59,075 INFO     Post Title:just as test as usual
+2017-12-13 12:58:59,075 INFO     Post url:https://imgur.com/a/G3GPn
+2017-12-13 12:58:59,075 INFO     Post author:momoiharuko
+2017-12-13 12:58:59,075 INFO     Post id:7jae95
+2017-12-13 12:58:59,075 INFO     SlideShow already saved ignoring
+2017-12-13 12:58:59,988 INFO     Tqwnz
+2017-12-13 12:59:00,346 INFO     Imgur Gallery!
+2017-12-13 12:59:00,346 INFO     Post Title:Flow of smoke
+2017-12-13 12:59:00,346 INFO     Post url:https://imgur.com/a/Tqwnz
+2017-12-13 12:59:00,346 INFO     Post author:mushroommadman
+2017-12-13 12:59:00,346 INFO     Post id:7iwhwg
+2017-12-13 12:59:00,347 INFO     SlideShow already saved ignoring
+2017-12-13 12:59:00,347 INFO     tpYLs
+2017-12-13 12:59:00,574 INFO     Bad Link Error
+2017-12-13 12:59:00,574 INFO     Only 1 picture in Gallery ignoring
+2017-12-13 12:59:00,574 INFO     Finished checkinging - waiting 1 minute
+2017-12-13 13:02:26,673 INFO     Loggin in...
+2017-12-13 13:03:37,403 INFO     Loggin in...
+2017-12-13 13:03:37,405 INFO     Logged in!
+2017-12-13 13:03:37,405 INFO     posts_replied_to: ['7j4irv', '7ihwb9', '7jfhrs']
+2017-12-13 13:03:37,405 INFO     saved_gallerys: ['https://imgur.com/a/rABNK', 'https://imgur.com/a/TovkA', 'https://imgur.com/a/qs9Wm']
+2017-12-13 13:03:37,405 INFO     Checking sub r/Test
+2017-12-13 13:03:37,405 INFO     Obtaining 150 comments...
+2017-12-13 13:03:39,664 INFO     G3GPn
+2017-12-13 13:03:40,070 INFO     Imgur Gallery!
+2017-12-13 13:03:40,071 INFO     Post Title:just as test as usual
+2017-12-13 13:03:40,071 INFO     Post url:https://imgur.com/a/G3GPn
+2017-12-13 13:03:40,071 INFO     Post author:momoiharuko
+2017-12-13 13:03:40,071 INFO     Post id:7jae95
+2017-12-13 13:03:40,071 INFO     SlideShow already saved ignoring
+2017-12-13 13:03:41,155 INFO     Tqwnz
+2017-12-13 13:03:41,560 INFO     Imgur Gallery!
+2017-12-13 13:03:41,560 INFO     Post Title:Flow of smoke
+2017-12-13 13:03:41,560 INFO     Post url:https://imgur.com/a/Tqwnz
+2017-12-13 13:03:41,560 INFO     Post author:mushroommadman
+2017-12-13 13:03:41,560 INFO     Post id:7iwhwg
+2017-12-13 13:03:41,561 INFO     SlideShow already saved ignoring
+2017-12-13 13:03:41,561 INFO     tpYLs
+2017-12-13 13:03:41,891 INFO     Bad Link Error
+2017-12-13 13:03:41,891 INFO     Only 1 picture in Gallery ignoring
+2017-12-13 13:03:41,892 INFO     Finished checkinging - waiting 1 minute
+2017-12-13 13:04:35,661 INFO     Loggin in...
+2017-12-13 13:04:35,662 INFO     Logged in!
+2017-12-13 13:04:35,663 INFO     posts_replied_to: ['7j4irv', '7ihwb9', '7jfhrs']
+2017-12-13 13:04:35,663 INFO     saved_gallerys: ['https://imgur.com/a/rABNK', 'https://imgur.com/a/TovkA', 'https://imgur.com/a/qs9Wm']
+2017-12-13 13:04:35,663 INFO     Checking sub r/DIY
+2017-12-13 13:04:35,663 INFO     Obtaining 150 comments...
+2017-12-13 13:04:38,438 INFO     4Fuz6
+2017-12-13 13:04:38,865 INFO     Imgur Gallery!
+2017-12-13 13:04:38,866 INFO     Post Title:I made a lamp!
+2017-12-13 13:04:38,866 INFO     Post url:https://imgur.com/gallery/4Fuz6
+2017-12-13 13:04:38,866 INFO     Post author:Dyslexic_Njnia
+2017-12-13 13:04:38,866 INFO     Post id:7jca65
+2017-12-13 13:04:38,870 INFO     Saving image
+2017-12-13 13:04:39,386 INFO     image saved!
+2017-12-13 13:04:39,386 INFO     Saving image
+2017-12-13 13:04:40,458 INFO     image saved!
+2017-12-13 13:04:40,458 INFO     Saving image
+2017-12-13 13:04:41,481 INFO     image saved!
+2017-12-13 13:04:41,481 INFO     Saving image
+2017-12-13 13:04:42,457 INFO     image saved!
+2017-12-13 13:04:42,457 INFO     Saving image
+2017-12-13 13:04:43,200 INFO     image saved!
+2017-12-13 13:04:43,200 INFO     Saving image
+2017-12-13 13:04:43,407 INFO     image saved!
+2017-12-13 13:04:43,407 INFO     Saving image
+2017-12-13 13:04:43,584 INFO     image saved!
+2017-12-13 13:04:43,584 INFO     Saving image
+2017-12-13 13:04:45,138 INFO     image saved!
+2017-12-13 13:04:45,138 INFO     Saving image
+2017-12-13 13:04:46,131 INFO     image saved!
+2017-12-13 13:04:46,131 INFO     Saving image
+2017-12-13 13:04:46,986 INFO     image saved!
+2017-12-13 13:04:46,986 INFO     Saving image
+2017-12-13 13:04:47,426 INFO     image saved!
+2017-12-13 13:05:56,350 INFO     Loggin in...
+2017-12-13 13:05:56,351 INFO     Logged in!
+2017-12-13 13:05:56,352 INFO     posts_replied_to: ['7j4irv', '7ihwb9', '7jfhrs', '7jca65']
+2017-12-13 13:05:56,352 INFO     saved_gallerys: ['https://imgur.com/a/rABNK', 'https://imgur.com/a/TovkA', 'https://imgur.com/a/qs9Wm', 'https://imgur.com/gallery/4Fuz6']
+2017-12-13 13:05:56,352 INFO     Checking sub r/DIY
+2017-12-13 13:05:56,352 INFO     Obtaining 150 comments...
+2017-12-13 13:05:59,122 INFO     AT06a
+2017-12-13 13:05:59,487 INFO     Imgur Gallery!
+2017-12-13 13:05:59,487 INFO     Post Title:My girlfriend wanted a new king bed for Christmas. I made her a Black Velvet Diamond Tufted Headboard
+2017-12-13 13:05:59,487 INFO     Post url:https://imgur.com/a/AT06a
+2017-12-13 13:05:59,487 INFO     Post author:The_Void_calls_me
+2017-12-13 13:05:59,487 INFO     Post id:7jdi04
+2017-12-13 13:05:59,489 INFO     Saving image
+2017-12-13 13:05:59,661 INFO     image saved!
+2017-12-13 13:05:59,662 INFO     Saving image
+2017-12-13 13:05:59,792 INFO     image saved!
+2017-12-13 13:05:59,793 INFO     Saving image
+2017-12-13 13:05:59,932 INFO     image saved!
+2017-12-13 13:05:59,933 INFO     Saving image
+2017-12-13 13:06:00,086 INFO     image saved!
+2017-12-13 13:06:00,086 INFO     Saving image
+2017-12-13 13:06:00,213 INFO     image saved!
+2017-12-13 13:06:00,213 INFO     Saving image
+2017-12-13 13:06:00,376 INFO     image saved!
+2017-12-13 13:06:00,376 INFO     Saving image
+2017-12-13 13:06:00,614 INFO     image saved!
+2017-12-13 13:06:00,614 INFO     Saving image
+2017-12-13 13:06:00,765 INFO     image saved!
+2017-12-13 13:06:00,766 INFO     Saving image
+2017-12-13 13:06:00,903 INFO     image saved!
+2017-12-13 13:06:00,903 INFO     Saving image
+2017-12-13 13:06:01,029 INFO     image saved!
+2017-12-13 13:06:01,029 INFO     Saving image
+2017-12-13 13:06:01,284 INFO     image saved!
+2017-12-13 13:06:01,284 INFO     Saving image
+2017-12-13 13:06:01,426 INFO     image saved!
+2017-12-13 13:06:01,426 INFO     Saving image
+2017-12-13 13:06:01,591 INFO     image saved!
+2017-12-13 13:06:01,592 INFO     Saving image
+2017-12-13 13:06:01,728 INFO     image saved!
+2017-12-13 13:06:01,729 INFO     Saving image
+2017-12-13 13:06:01,879 INFO     image saved!
+2017-12-13 13:06:01,879 INFO     Saving image
+2017-12-13 13:06:02,013 INFO     image saved!
+2017-12-13 13:06:02,013 INFO     Saving image
+2017-12-13 13:06:02,155 INFO     image saved!
+2017-12-13 13:06:02,212 INFO     There is no EXIF
+2017-12-13 13:06:02,212 INFO     h:450 W;450
+2017-12-13 13:06:02,212 INFO     new res: h:450 W;450
+2017-12-13 13:06:52,460 INFO     Loggin in...
+2017-12-13 13:06:52,461 INFO     Logged in!
+2017-12-13 13:06:52,462 INFO     posts_replied_to: ['7j4irv', '7ihwb9', '7jfhrs', '7jca65', '7jdi04']
+2017-12-13 13:06:52,462 INFO     saved_gallerys: ['https://imgur.com/a/rABNK', 'https://imgur.com/a/TovkA', 'https://imgur.com/a/qs9Wm', 'https://imgur.com/gallery/4Fuz6', 'https://imgur.com/a/AT06a']
+2017-12-13 13:06:52,462 INFO     Checking sub r/DIY
+2017-12-13 13:06:52,462 INFO     Obtaining 150 comments...
+2017-12-13 13:06:54,994 INFO     uelOh
+2017-12-13 13:06:55,388 INFO     Imgur Gallery!
+2017-12-13 13:06:55,388 INFO     Post Title:Hiding the cat litter box in an RV dinette base ($0)!
+2017-12-13 13:06:55,388 INFO     Post url:https://imgur.com/a/uelOh
+2017-12-13 13:06:55,388 INFO     Post author:ruckus666
+2017-12-13 13:06:55,388 INFO     Post id:7jgvt7
+2017-12-13 13:06:55,391 INFO     Saving image
+2017-12-13 13:06:56,185 INFO     image saved!
+2017-12-13 13:06:56,185 INFO     Saving image
+2017-12-13 13:06:56,691 INFO     image saved!
+2017-12-13 13:06:56,692 INFO     Saving image
+2017-12-13 13:06:57,327 INFO     image saved!
+2017-12-13 13:06:57,327 INFO     Saving image
+2017-12-13 13:06:58,301 INFO     image saved!
+2017-12-13 13:06:58,344 INFO     There is no EXIF
+2017-12-13 13:06:58,344 INFO     h:2834 W;3207
+2017-12-13 13:06:58,344 INFO     Higher than 720p shrink
+2017-12-13 13:06:58,344 INFO     wratio:1.6703125 hratio:2.6240740740740742
+2017-12-13 13:06:58,344 INFO     increase by hratio
+2017-12-13 13:06:58,344 INFO     new res: h:1080 W;1222
+2017-12-13 13:06:58,368 INFO     len67
+2017-12-13 13:06:58,370 INFO     start image: 0
+2017-12-13 13:06:58,372 INFO     len207
+2017-12-13 13:06:58,373 INFO     0.9329411764705883
+2017-12-13 13:06:58,950 INFO     0 len4
+2017-12-13 13:06:58,980 INFO     There is no EXIF
+2017-12-13 13:06:58,980 INFO     image resize small
+2017-12-13 13:06:59,169 INFO     There is no EXIF
+2017-12-13 13:06:59,169 INFO     image resize small
+2017-12-13 13:14:11,687 INFO     Loggin in...
+2017-12-13 13:14:11,688 INFO     Logged in!
+2017-12-13 13:14:11,688 INFO     posts_replied_to: ['7j4irv', '7ihwb9', '7jfhrs', '7jca65', '7jdi04', '7jgvt7']
+2017-12-13 13:14:11,689 INFO     saved_gallerys: ['https://imgur.com/a/rABNK', 'https://imgur.com/a/TovkA', 'https://imgur.com/a/qs9Wm', 'https://imgur.com/gallery/4Fuz6', 'https://imgur.com/a/AT06a', 'https://imgur.com/a/uelOh']
+2017-12-13 13:14:11,689 INFO     Checking sub r/DIY
+2017-12-13 13:14:11,689 INFO     Obtaining 150 comments...
+2017-12-13 13:14:13,850 INFO     fbWjS
+2017-12-13 13:14:14,488 INFO     Imgur Gallery!
+2017-12-13 13:14:14,489 INFO     Post Title:Building a modular power tool rolling storage cabinet. Or how to have a whole lot of power tools in a very little space.
+2017-12-13 13:14:14,489 INFO     Post url:https://imgur.com/a/fbWjS
+2017-12-13 13:14:14,489 INFO     Post author:TravAndAlex
+2017-12-13 13:14:14,489 INFO     Post id:7jfk8y
+2017-12-13 13:14:14,492 INFO     Saving image
+2017-12-13 13:14:16,511 INFO     image saved!
+2017-12-13 13:14:16,511 INFO     Saving image
+2017-12-13 13:14:17,142 INFO     image saved!
+2017-12-13 13:14:17,142 INFO     Saving image
+2017-12-13 13:14:17,624 INFO     image saved!
+2017-12-13 13:14:17,625 INFO     Saving image
+2017-12-13 13:14:18,044 INFO     image saved!
+2017-12-13 13:14:18,045 INFO     Saving image
+2017-12-13 13:14:18,534 INFO     image saved!
+2017-12-13 13:14:18,534 INFO     Saving image
+2017-12-13 13:14:18,767 INFO     image saved!
+2017-12-13 13:14:18,767 INFO     Saving image
+2017-12-13 13:14:18,968 INFO     image saved!
+2017-12-13 13:14:18,968 INFO     Saving image
+2017-12-13 13:14:19,282 INFO     image saved!
+2017-12-13 13:14:19,283 INFO     Saving image
+2017-12-13 13:14:19,811 INFO     image saved!
+2017-12-13 13:14:19,811 INFO     Saving image
+2017-12-13 13:14:20,088 INFO     image saved!
+2017-12-13 13:14:20,088 INFO     Saving image
+2017-12-13 13:14:20,634 INFO     image saved!
+2017-12-13 13:14:20,634 INFO     Saving image
+2017-12-13 13:14:21,176 INFO     image saved!
+2017-12-13 13:14:21,176 INFO     Saving image
+2017-12-13 13:14:21,434 INFO     image saved!
+2017-12-13 13:14:21,434 INFO     Saving image
+2017-12-13 13:14:21,826 INFO     image saved!
+2017-12-13 13:14:21,826 INFO     Saving image
+2017-12-13 13:14:22,080 INFO     image saved!
+2017-12-13 13:14:22,080 INFO     Saving image
+2017-12-13 13:14:22,331 INFO     image saved!
+2017-12-13 13:14:22,331 INFO     Saving image
+2017-12-13 13:14:22,661 INFO     image saved!
+2017-12-13 13:14:22,661 INFO     Saving image
+2017-12-13 13:14:22,954 INFO     image saved!
+2017-12-13 13:14:22,954 INFO     Saving image
+2017-12-13 13:14:23,584 INFO     image saved!
+2017-12-13 13:14:23,623 INFO     There is no EXIF
+2017-12-13 13:14:23,623 INFO     h:2448 W;3264
+2017-12-13 13:14:23,623 INFO     Higher than 720p shrink
+2017-12-13 13:14:23,623 INFO     wratio:1.7 hratio:2.2666666666666666
+2017-12-13 13:14:23,623 INFO     increase by hratio
+2017-12-13 13:14:23,623 INFO     new res: h:1080 W;1440
+2017-12-13 13:14:23,636 INFO     len136
+2017-12-13 13:14:23,636 INFO     start image: 0
+2017-12-13 13:14:23,637 INFO     len516
+2017-12-13 13:14:23,637 INFO     0.5694117647058824
+2017-12-13 13:14:24,693 INFO     0 len19
+2017-12-13 13:14:24,704 INFO     There is no EXIF
+2017-12-13 13:14:24,704 INFO     image resize small
+2017-12-13 13:14:24,878 INFO     There is no EXIF
+2017-12-13 13:14:24,878 INFO     image resize small
+2017-12-13 13:15:09,127 INFO     Blending frames image: 0 curent Frame:1090
+2017-12-13 13:15:12,780 INFO     start image: 1
+2017-12-13 13:15:12,782 INFO     len419
+2017-12-13 13:15:12,782 INFO     0.6835294117647058
+2017-12-13 13:15:13,709 INFO     1 len19
+2017-12-13 13:15:13,718 INFO     There is no EXIF
+2017-12-13 13:15:13,719 INFO     image resize small
+2017-12-13 13:15:13,890 INFO     There is no EXIF
+2017-12-13 13:15:13,890 INFO     image resize small
+2017-12-13 13:15:47,165 INFO     Blending frames image: 1 curent Frame:1930
+2017-12-13 13:15:50,626 INFO     start image: 2
+2017-12-13 13:15:50,627 INFO     len432
+2017-12-13 13:15:50,627 INFO     0.668235294117647
+2017-12-13 13:15:51,666 INFO     2 len19
+2017-12-13 13:15:51,678 INFO     There is no EXIF
+2017-12-13 13:15:51,678 INFO     image resize small
+2017-12-13 13:15:51,943 INFO     There is no EXIF
+2017-12-13 13:15:51,943 INFO     image resize small
+2017-12-13 13:16:25,147 INFO     Blending frames image: 2 curent Frame:2770
+2017-12-13 13:16:29,224 INFO     start image: 3
+2017-12-13 13:16:29,225 INFO     len115
+2017-12-13 13:16:29,713 INFO     3 len19
+2017-12-13 13:16:29,723 INFO     There is no EXIF
+2017-12-13 13:16:29,723 INFO     image resize small
+2017-12-13 13:16:29,925 INFO     There is no EXIF
+2017-12-13 13:16:29,925 INFO     image resize small
+2017-12-13 13:36:07,215 INFO     Loggin in...
+2017-12-13 13:36:07,216 INFO     Logged in!
+2017-12-13 13:36:07,217 INFO     posts_replied_to: ['7j4irv', '7ihwb9', '7jfhrs', '7jca65', '7jdi04', '7jgvt7', '7jfk8y']
+2017-12-13 13:36:07,217 INFO     saved_gallerys: ['https://imgur.com/a/rABNK', 'https://imgur.com/a/TovkA', 'https://imgur.com/a/qs9Wm', 'https://imgur.com/gallery/4Fuz6', 'https://imgur.com/a/AT06a', 'https://imgur.com/a/uelOh', 'https://imgur.com/a/fbWjS']
+2017-12-13 13:36:07,217 INFO     Checking sub r/Pictures
+2017-12-13 13:36:07,217 INFO     Obtaining 150 comments...
+2017-12-13 13:36:09,028 INFO     2yHku
+2017-12-13 13:36:09,407 INFO     Only 1 picture in Gallery ignoring
+2017-12-13 13:36:09,407 INFO     jLaoq
+2017-12-13 13:36:10,147 INFO     Only 1 picture in Gallery ignoring
+2017-12-13 13:36:10,147 INFO     At67l
+2017-12-13 13:36:10,496 INFO     Imgur Gallery!
+2017-12-13 13:36:10,496 INFO     Post Title:i was talking around an old path near a beach and i found a usb that was half in some sand and it had these images on it, anyone have any ideas for what they could be? https://imgur.com/a/At67l
+2017-12-13 13:36:10,496 INFO     Post url:https://imgur.com/a/At67l
+2017-12-13 13:36:10,496 INFO     Post author:BOXXYwhat
+2017-12-13 13:36:10,496 INFO     Post id:7hy6gv
+2017-12-13 13:36:10,499 INFO     Saving image
+2017-12-13 13:36:10,659 INFO     image saved!
+2017-12-13 13:36:10,659 INFO     Saving image
+2017-12-13 13:36:11,111 INFO     image saved!
+2017-12-13 13:36:11,111 INFO     Saving image
+2017-12-13 13:36:11,394 INFO     image saved!
+2017-12-13 13:36:11,441 INFO     There is no EXIF
+2017-12-13 13:36:11,441 INFO     h:559 W;745
+2017-12-13 13:36:11,441 INFO     new res: h:559 W;745
+2017-12-13 13:36:11,455 INFO     len207
+2017-12-13 13:36:11,456 INFO     0.9329411764705883
+2017-12-13 13:36:11,456 INFO     start image: 0
+2017-12-13 13:36:11,456 INFO     len0
+2017-12-13 13:36:11,829 INFO     0 len3
+2017-12-13 13:36:11,832 INFO     There is no EXIF
+2017-12-13 13:36:11,847 INFO     There is no EXIF
+2017-12-13 13:36:11,848 INFO     image resize enalrge!
+2017-12-13 13:36:11,848 INFO     increase by wratio
+2017-12-13 13:36:17,519 INFO     Blending frames image: 0 curent Frame:510
+2017-12-13 13:36:18,138 INFO     start image: 1
+2017-12-13 13:36:18,139 INFO     len0
+2017-12-13 13:36:18,436 INFO     1 len3
+2017-12-13 13:36:18,440 INFO     There is no EXIF
+2017-12-13 13:36:18,440 INFO     image resize enalrge!
+2017-12-13 13:36:18,441 INFO     increase by wratio
+2017-12-13 13:36:18,464 INFO     There is no EXIF
+2017-12-13 13:36:21,362 INFO     Blending frames image: 1 curent Frame:770
+2017-12-13 13:36:21,950 INFO     start image: 2
+2017-12-13 13:36:21,950 INFO     len0
+2017-12-13 13:36:22,249 INFO     Last Image
+2017-12-13 13:36:22,251 INFO     There is no EXIF
+2017-12-13 13:36:22,257 INFO     There is no EXIF
+2017-12-13 13:36:24,819 INFO     Blending frames image: 2 curent Frame:1030
+2017-12-13 13:36:25,384 INFO     Video saving locally
+2017-12-13 13:36:25,392 INFO     Video saved
+2017-12-13 13:36:25,410 INFO     Starting Upload
+2017-12-13 13:36:28,175 INFO     Uploaded
+2017-12-13 13:36:28,175 INFO     videoUrl: {'status': 1, 'shortcode': 'gihp2'}
+2017-12-13 13:36:28,175 INFO     Starting comment post attempt 
+2017-12-13 13:36:28,310 INFO     Exception with comment waiting 30 seconds
+2017-12-13 14:58:11,908 INFO     Loggin in...
+2017-12-13 14:58:12,262 INFO     Logged in!
+2017-12-13 14:58:12,263 INFO     posts_replied_to: ['7j4irv', '7ihwb9', '7jfhrs', '7jca65', '7jdi04', '7jgvt7', '7jfk8y', '7hy6gv']
+2017-12-13 14:58:12,263 INFO     saved_gallerys: ['https://imgur.com/a/rABNK', 'https://imgur.com/a/TovkA', 'https://imgur.com/a/qs9Wm', 'https://imgur.com/gallery/4Fuz6', 'https://imgur.com/a/AT06a', 'https://imgur.com/a/uelOh', 'https://imgur.com/a/fbWjS', 'https://imgur.com/a/At67l']
+2017-12-13 14:58:12,263 INFO     Checking sub r/Pictures
+2017-12-13 14:58:12,263 INFO     Obtaining 150 comments...
+2017-12-13 14:58:13,996 INFO     2yHku
+2017-12-13 14:58:14,407 INFO     Only 1 picture in Gallery ignoring
+2017-12-13 14:58:14,408 INFO     jLaoq
+2017-12-13 14:58:14,743 INFO     Only 1 picture in Gallery ignoring
+2017-12-13 14:58:14,743 INFO     hPQl8
+2017-12-13 14:58:15,107 INFO     Only 1 picture in Gallery ignoring
+2017-12-13 14:58:15,107 INFO     PtlQN
+2017-12-13 14:58:15,498 INFO     Only 1 picture in Gallery ignoring
+2017-12-13 14:58:15,498 INFO     GtCdm
+2017-12-13 14:58:15,846 INFO     Only 1 picture in Gallery ignoring
+2017-12-13 14:58:15,847 INFO     EoQLz
+2017-12-13 14:58:16,184 INFO     Only 1 picture in Gallery ignoring
+2017-12-13 14:58:16,184 INFO     73C6m
+2017-12-13 14:58:16,540 INFO     Only 1 picture in Gallery ignoring
+2017-12-13 14:58:17,801 INFO     
+2017-12-13 14:58:18,217 INFO     Bad Link Error
+2017-12-13 14:58:18,217 INFO     Only 1 picture in Gallery ignoring
+2017-12-13 14:58:18,217 INFO     W5OnH
+2017-12-13 14:58:18,644 INFO     Imgur Gallery!
+2017-12-13 14:58:18,644 INFO     Post Title:Probably not that cool, but the progression of my family through family portraits from mid 1940s to mid 1980s!!!
+2017-12-13 14:58:18,644 INFO     Post url:https://imgur.com/a/W5OnH
+2017-12-13 14:58:18,644 INFO     Post author:Wassily_Yackim
+2017-12-13 14:58:18,644 INFO     Post id:7bk9s2
+2017-12-13 14:58:18,646 INFO     Saving image
+2017-12-13 14:58:18,915 INFO     image saved!
+2017-12-13 14:58:18,915 INFO     Saving image
+2017-12-13 14:58:19,019 INFO     image saved!
+2017-12-13 14:58:19,019 INFO     Saving image
+2017-12-13 14:58:19,138 INFO     image saved!
+2017-12-13 14:58:19,138 INFO     Saving image
+2017-12-13 14:58:19,281 INFO     image saved!
+2017-12-13 14:58:19,281 INFO     Saving image
+2017-12-13 14:58:19,442 INFO     image saved!
+2017-12-13 14:58:19,442 INFO     Saving image
+2017-12-13 14:58:19,554 INFO     image saved!
+2017-12-13 14:58:19,554 INFO     Saving image
+2017-12-13 14:58:19,754 INFO     image saved!
+2017-12-13 14:58:19,755 INFO     Saving image
+2017-12-13 14:58:19,937 INFO     image saved!
+2017-12-13 14:58:19,937 INFO     Saving image
+2017-12-13 14:58:20,212 INFO     image saved!
+2017-12-13 14:58:20,252 INFO     There is no EXIF
+2017-12-13 14:58:20,252 INFO     h:549 W;720
+2017-12-13 14:58:20,252 INFO     new res: h:549 W;720
+2017-12-13 14:58:20,266 INFO     len131
+2017-12-13 14:58:20,266 INFO     start image: 0
+2017-12-13 14:58:20,267 INFO     len0
+2017-12-13 14:58:20,491 INFO     0 len9
+2017-12-13 14:58:20,496 INFO     There is no EXIF
+2017-12-13 14:58:20,516 INFO     There is no EXIF
+2017-12-13 14:58:20,516 INFO     image resize enalrge!
+2017-12-13 14:58:20,516 INFO     increase by wratio
+2017-12-13 14:58:28,652 INFO     Blending frames image: 0 curent Frame:510
+2017-12-13 14:58:29,335 INFO     start image: 1
+2017-12-13 14:58:29,336 INFO     len0
+2017-12-13 14:58:29,536 INFO     1 len9
+2017-12-13 14:58:29,541 INFO     There is no EXIF
+2017-12-13 14:58:29,541 INFO     image resize enalrge!
+2017-12-13 14:58:29,541 INFO     increase by wratio
+2017-12-13 14:58:29,551 INFO     There is no EXIF
+2017-12-13 14:58:29,551 INFO     image resize small
+2017-12-13 14:58:32,833 INFO     Blending frames image: 1 curent Frame:770
+2017-12-13 14:58:33,551 INFO     start image: 2
+2017-12-13 14:58:33,553 INFO     len0
+2017-12-13 14:58:33,800 INFO     2 len9
+2017-12-13 14:58:33,803 INFO     There is no EXIF
+2017-12-13 14:58:33,803 INFO     image resize small
+2017-12-13 14:58:33,828 INFO     There is no EXIF
+2017-12-13 14:58:33,828 INFO     image resize small
+2017-12-13 14:58:36,635 INFO     Blending frames image: 2 curent Frame:1030
+2017-12-13 14:58:37,248 INFO     start image: 3
+2017-12-13 14:58:37,249 INFO     len0
+2017-12-13 14:58:37,411 INFO     3 len9
+2017-12-13 14:58:37,414 INFO     There is no EXIF
+2017-12-13 14:58:37,414 INFO     image resize small
+2017-12-13 14:58:37,441 INFO     There is no EXIF
+2017-12-13 14:58:37,441 INFO     image resize small
+2017-12-13 14:58:40,253 INFO     Blending frames image: 3 curent Frame:1290
+2017-12-13 14:58:40,863 INFO     start image: 4
+2017-12-13 14:58:40,863 INFO     len0
+2017-12-13 14:58:41,025 INFO     4 len9
+2017-12-13 14:58:41,028 INFO     There is no EXIF
+2017-12-13 14:58:41,029 INFO     image resize small
+2017-12-13 14:58:41,059 INFO     There is no EXIF
+2017-12-13 14:58:41,059 INFO     image resize small
+2017-12-13 14:58:43,744 INFO     Blending frames image: 4 curent Frame:1550
+2017-12-13 14:58:44,312 INFO     start image: 5
+2017-12-13 14:58:44,313 INFO     len0
+2017-12-13 14:58:44,484 INFO     5 len9
+2017-12-13 14:58:44,486 INFO     There is no EXIF
+2017-12-13 14:58:44,486 INFO     image resize small
+2017-12-13 14:58:44,513 INFO     There is no EXIF
+2017-12-13 14:58:44,513 INFO     image resize small
+2017-12-13 14:58:47,581 INFO     Blending frames image: 5 curent Frame:1810
+2017-12-13 14:58:48,163 INFO     start image: 6
+2017-12-13 14:58:48,163 INFO     len0
+2017-12-13 14:58:48,341 INFO     6 len9
+2017-12-13 14:58:48,344 INFO     There is no EXIF
+2017-12-13 14:58:48,344 INFO     image resize small
+2017-12-13 14:58:48,406 INFO     There is no EXIF
+2017-12-13 14:58:48,406 INFO     image resize small
+2017-12-13 14:58:51,031 INFO     Blending frames image: 6 curent Frame:2070
+2017-12-13 14:58:51,616 INFO     start image: 7
+2017-12-13 14:58:51,617 INFO     len0
+2017-12-13 14:58:51,780 INFO     7 len9
+2017-12-13 14:58:51,783 INFO     There is no EXIF
+2017-12-13 14:58:51,783 INFO     image resize small
+2017-12-13 14:58:51,845 INFO     There is no EXIF
+2017-12-13 14:58:51,845 INFO     image resize small
+2017-12-13 14:58:54,566 INFO     Blending frames image: 7 curent Frame:2330
+2017-12-13 14:58:55,153 INFO     start image: 8
+2017-12-13 14:58:55,154 INFO     len0
+2017-12-13 14:58:55,310 INFO     Last Image
+2017-12-13 14:58:55,312 INFO     There is no EXIF
+2017-12-13 14:58:55,312 INFO     image resize small
+2017-12-13 14:58:55,373 INFO     There is no EXIF
+2017-12-13 14:58:57,994 INFO     Blending frames image: 8 curent Frame:2590
+2017-12-13 14:58:58,634 INFO     Video saving locally
+2017-12-13 14:58:58,641 INFO     Video saved
+2017-12-13 14:58:58,658 INFO     Starting Upload
+2017-12-13 14:59:06,810 INFO     Uploaded
+2017-12-13 14:59:06,810 INFO     videoUrl: {'status': 1, 'shortcode': 'f6uom'}
+2017-12-13 14:59:06,810 INFO     Starting comment post attempt 
+2017-12-13 14:59:07,058 INFO     Comment posted
+2017-12-13 14:59:07,058 INFO     Posted Response
+2017-12-13 14:59:07,058 INFO     MMH1P
+2017-12-13 14:59:07,470 INFO     Only 1 picture in Gallery ignoring
+2017-12-13 14:59:07,470 INFO     NWE37
+2017-12-13 14:59:07,811 INFO     Only 1 picture in Gallery ignoring
+2017-12-13 14:59:07,812 INFO     3IXt9
+2017-12-13 14:59:08,188 INFO     Only 1 picture in Gallery ignoring
+2017-12-13 14:59:08,188 INFO     lX1vI
+2017-12-13 14:59:08,557 INFO     Only 1 picture in Gallery ignoring
+2017-12-13 14:59:08,558 INFO     UR5yt
+2017-12-13 14:59:08,903 INFO     Only 1 picture in Gallery ignoring
+2017-12-13 14:59:08,903 INFO     Finished checkinging - waiting 1 minute
+2017-12-13 15:02:15,754 INFO     Loggin in...
+2017-12-13 15:02:15,755 INFO     Logged in!
+2017-12-13 15:02:15,756 INFO     posts_replied_to: ['7j4irv', '7ihwb9', '7jfhrs', '7jca65', '7jdi04', '7jgvt7', '7jfk8y', '7hy6gv', '7bk9s2']
+2017-12-13 15:02:15,756 INFO     saved_gallerys: ['https://imgur.com/a/rABNK', 'https://imgur.com/a/TovkA', 'https://imgur.com/a/qs9Wm', 'https://imgur.com/gallery/4Fuz6', 'https://imgur.com/a/AT06a', 'https://imgur.com/a/uelOh', 'https://imgur.com/a/fbWjS', 'https://imgur.com/a/At67l', 'https://imgur.com/a/W5OnH']
+2017-12-13 15:02:15,756 INFO     Checking sub r/Pictures
+2017-12-13 15:02:15,756 INFO     Obtaining 150 comments...
+2017-12-13 15:02:32,805 INFO     Loggin in...
+2017-12-13 15:02:32,806 INFO     Logged in!
+2017-12-13 15:02:32,807 INFO     posts_replied_to: ['7j4irv', '7ihwb9', '7jfhrs', '7jca65', '7jdi04', '7jgvt7', '7jfk8y', '7hy6gv', '7bk9s2']
+2017-12-13 15:02:32,807 INFO     saved_gallerys: ['https://imgur.com/a/rABNK', 'https://imgur.com/a/TovkA', 'https://imgur.com/a/qs9Wm', 'https://imgur.com/gallery/4Fuz6', 'https://imgur.com/a/AT06a', 'https://imgur.com/a/uelOh', 'https://imgur.com/a/fbWjS', 'https://imgur.com/a/At67l', 'https://imgur.com/a/W5OnH']
+2017-12-13 15:02:32,807 INFO     Checking sub r/Pictures
+2017-12-13 15:02:32,807 INFO     Obtaining 150 comments...
+2017-12-13 15:02:58,594 INFO     Loggin in...
+2017-12-13 15:02:58,595 INFO     Logged in!
+2017-12-13 15:02:58,595 INFO     posts_replied_to: ['7j4irv', '7ihwb9', '7jfhrs', '7jca65', '7jdi04', '7jgvt7', '7jfk8y', '7hy6gv', '7bk9s2']
+2017-12-13 15:02:58,596 INFO     saved_gallerys: ['https://imgur.com/a/rABNK', 'https://imgur.com/a/TovkA', 'https://imgur.com/a/qs9Wm', 'https://imgur.com/gallery/4Fuz6', 'https://imgur.com/a/AT06a', 'https://imgur.com/a/uelOh', 'https://imgur.com/a/fbWjS', 'https://imgur.com/a/At67l', 'https://imgur.com/a/W5OnH']
+2017-12-13 15:02:58,596 INFO     Checking sub r/Pictures
+2017-12-13 15:02:58,596 INFO     Obtaining 150 comments...
+2017-12-13 15:03:00,485 INFO     Number of comments in post2
+2017-12-13 15:03:00,485 INFO     2yHku
+2017-12-13 15:03:00,864 INFO     Only 1 picture in Gallery ignoring
+2017-12-13 15:03:00,865 INFO     Number of comments in post0
+2017-12-13 15:03:00,865 INFO     Number of comments in post0
+2017-12-13 15:03:00,865 INFO     Number of comments in post0
+2017-12-13 15:03:00,865 INFO     Number of comments in post0
+2017-12-13 15:03:00,865 INFO     Number of comments in post0
+2017-12-13 15:03:00,865 INFO     Number of comments in post0
+2017-12-13 15:03:00,865 INFO     Number of comments in post0
+2017-12-13 15:03:00,865 INFO     Number of comments in post0
+2017-12-13 15:03:00,865 INFO     Number of comments in post2
+2017-12-13 15:03:00,865 INFO     Number of comments in post0
+2017-12-13 15:03:00,865 INFO     Number of comments in post0
+2017-12-13 15:03:00,865 INFO     Number of comments in post0
+2017-12-13 15:03:00,865 INFO     Number of comments in post1
+2017-12-13 15:03:00,866 INFO     Number of comments in post4
+2017-12-13 15:03:00,866 INFO     Number of comments in post1
+2017-12-13 15:03:00,866 INFO     jLaoq
+2017-12-13 15:03:01,216 INFO     Only 1 picture in Gallery ignoring
+2017-12-13 15:03:01,216 INFO     Number of comments in post0
+2017-12-13 15:03:01,216 INFO     Number of comments in post0
+2017-12-13 15:03:01,218 INFO     Number of comments in post0
+2017-12-13 15:03:01,220 INFO     Number of comments in post7
+2017-12-13 15:03:01,220 INFO     Number of comments in post0
+2017-12-13 15:03:01,220 INFO     Number of comments in post0
+2017-12-13 15:03:01,221 INFO     Number of comments in post0
+2017-12-13 15:03:01,221 INFO     Number of comments in post6
+2017-12-13 15:03:01,221 INFO     Number of comments in post0
+2017-12-13 15:03:01,222 INFO     Number of comments in post2
+2017-12-13 15:03:01,223 INFO     Number of comments in post2
+2017-12-13 15:03:01,225 INFO     Number of comments in post1
+2017-12-13 15:03:01,226 INFO     Number of comments in post6
+2017-12-13 15:03:01,228 INFO     Number of comments in post6
+2017-12-13 15:03:01,229 INFO     Number of comments in post1
+2017-12-13 15:03:01,232 INFO     Number of comments in post2
+2017-12-13 15:03:01,234 INFO     Number of comments in post0
+2017-12-13 15:03:01,234 INFO     Number of comments in post2
+2017-12-13 15:03:01,234 INFO     Number of comments in post0
+2017-12-13 15:03:01,235 INFO     Number of comments in post0
+2017-12-13 15:03:01,235 INFO     Number of comments in post1
+2017-12-13 15:03:01,235 INFO     Number of comments in post0
+2017-12-13 15:03:01,235 INFO     Number of comments in post0
+2017-12-13 15:03:01,235 INFO     Number of comments in post0
+2017-12-13 15:03:01,235 INFO     Number of comments in post2
+2017-12-13 15:03:01,235 INFO     Number of comments in post1
+2017-12-13 15:03:01,235 INFO     Number of comments in post0
+2017-12-13 15:03:01,236 INFO     Number of comments in post1
+2017-12-13 15:03:01,236 INFO     Number of comments in post10
+2017-12-13 15:03:01,236 INFO     Number of comments in post0
+2017-12-13 15:03:01,236 INFO     Number of comments in post2
+2017-12-13 15:03:01,236 INFO     Number of comments in post1
+2017-12-13 15:03:01,236 INFO     Number of comments in post0
+2017-12-13 15:03:01,236 INFO     Number of comments in post1
+2017-12-13 15:03:01,236 INFO     Number of comments in post4
+2017-12-13 15:03:01,237 INFO     Number of comments in post1
+2017-12-13 15:03:01,237 INFO     hPQl8
+2017-12-13 15:03:01,569 INFO     Only 1 picture in Gallery ignoring
+2017-12-13 15:03:01,569 INFO     Number of comments in post0
+2017-12-13 15:03:01,570 INFO     Number of comments in post0
+2017-12-13 15:03:01,570 INFO     Number of comments in post9
+2017-12-13 15:03:01,570 INFO     Number of comments in post0
+2017-12-13 15:03:01,570 INFO     Number of comments in post1
+2017-12-13 15:03:01,570 INFO     Number of comments in post4
+2017-12-13 15:03:01,570 INFO     Number of comments in post0
+2017-12-13 15:03:01,570 INFO     Number of comments in post0
+2017-12-13 15:03:01,571 INFO     Number of comments in post3
+2017-12-13 15:03:01,571 INFO     Number of comments in post0
+2017-12-13 15:03:01,571 INFO     Number of comments in post2
+2017-12-13 15:03:01,571 INFO     Number of comments in post0
+2017-12-13 15:03:01,571 INFO     Number of comments in post1
+2017-12-13 15:03:01,571 INFO     Number of comments in post2
+2017-12-13 15:03:01,571 INFO     Number of comments in post0
+2017-12-13 15:03:01,571 INFO     Number of comments in post0
+2017-12-13 15:03:01,571 INFO     Number of comments in post0
+2017-12-13 15:03:01,571 INFO     Number of comments in post1
+2017-12-13 15:03:01,572 INFO     Number of comments in post0
+2017-12-13 15:03:01,572 INFO     Number of comments in post0
+2017-12-13 15:03:01,572 INFO     Number of comments in post2
+2017-12-13 15:03:01,572 INFO     Number of comments in post0
+2017-12-13 15:03:01,572 INFO     Number of comments in post1
+2017-12-13 15:03:01,572 INFO     Number of comments in post3
+2017-12-13 15:03:01,572 INFO     Number of comments in post1
+2017-12-13 15:03:01,572 INFO     PtlQN
+2017-12-13 15:03:01,903 INFO     Only 1 picture in Gallery ignoring
+2017-12-13 15:03:01,903 INFO     Number of comments in post1
+2017-12-13 15:03:01,903 INFO     GtCdm
+2017-12-13 15:03:02,238 INFO     Only 1 picture in Gallery ignoring
+2017-12-13 15:03:02,238 INFO     Number of comments in post1
+2017-12-13 15:03:02,238 INFO     Number of comments in post1
+2017-12-13 15:03:02,238 INFO     Number of comments in post0
+2017-12-13 15:03:02,238 INFO     Number of comments in post0
+2017-12-13 15:03:02,238 INFO     Number of comments in post0
+2017-12-13 15:03:02,238 INFO     Number of comments in post1
+2017-12-13 15:03:02,238 INFO     Number of comments in post1
+2017-12-13 15:03:02,238 INFO     Number of comments in post11
+2017-12-13 15:03:02,238 INFO     Number of comments in post0
+2017-12-13 15:03:02,238 INFO     Number of comments in post0
+2017-12-13 15:03:02,238 INFO     EoQLz
+2017-12-13 15:03:02,592 INFO     Only 1 picture in Gallery ignoring
+2017-12-13 15:03:02,592 INFO     Number of comments in post1
+2017-12-13 15:03:02,592 INFO     73C6m
+2017-12-13 15:03:02,912 INFO     Only 1 picture in Gallery ignoring
+2017-12-13 15:03:02,912 INFO     Number of comments in post0
+2017-12-13 15:03:02,912 INFO     Number of comments in post1
+2017-12-13 15:03:02,912 INFO     Number of comments in post0
+2017-12-13 15:03:02,913 INFO     Number of comments in post3
+2017-12-13 15:03:02,913 INFO     Number of comments in post0
+2017-12-13 15:03:02,913 INFO     Number of comments in post0
+2017-12-13 15:03:02,913 INFO     Number of comments in post4
+2017-12-13 15:03:02,913 INFO     Number of comments in post3
+2017-12-13 15:03:02,913 INFO     Number of comments in post4
+2017-12-13 15:03:02,913 INFO     Number of comments in post2
+2017-12-13 15:03:02,913 INFO     Number of comments in post0
+2017-12-13 15:03:04,064 INFO     Number of comments in post0
+2017-12-13 15:03:04,064 INFO     Number of comments in post1
+2017-12-13 15:03:04,064 INFO     Number of comments in post0
+2017-12-13 15:03:04,064 INFO     Number of comments in post0
+2017-12-13 15:03:04,064 INFO     Number of comments in post8
+2017-12-13 15:03:04,065 INFO     Number of comments in post0
+2017-12-13 15:03:04,065 INFO     Number of comments in post0
+2017-12-13 15:03:04,065 INFO     Number of comments in post0
+2017-12-13 15:03:04,065 INFO     Number of comments in post4
+2017-12-13 15:03:04,065 INFO     Number of comments in post12
+2017-12-13 15:03:04,065 INFO     Number of comments in post0
+2017-12-13 15:03:04,065 INFO     Number of comments in post0
+2017-12-13 15:03:04,065 INFO     Number of comments in post0
+2017-12-13 15:03:04,065 INFO     Number of comments in post1
+2017-12-13 15:03:04,065 INFO     Number of comments in post0
+2017-12-13 15:03:04,065 INFO     
+2017-12-13 15:03:04,392 INFO     Bad Link Error
+2017-12-13 15:03:04,392 INFO     Only 1 picture in Gallery ignoring
+2017-12-13 15:03:04,392 INFO     Number of comments in post0
+2017-12-13 15:03:04,392 INFO     Number of comments in post0
+2017-12-13 15:03:04,392 INFO     Number of comments in post5
+2017-12-13 15:03:04,392 INFO     Number of comments in post0
+2017-12-13 15:03:04,392 INFO     Number of comments in post0
+2017-12-13 15:03:04,392 INFO     Number of comments in post0
+2017-12-13 15:03:04,392 INFO     Number of comments in post0
+2017-12-13 15:03:04,392 INFO     Number of comments in post1
+2017-12-13 15:03:04,393 INFO     Number of comments in post0
+2017-12-13 15:03:04,393 INFO     Number of comments in post1
+2017-12-13 15:03:04,393 INFO     Number of comments in post0
+2017-12-13 15:03:04,393 INFO     Number of comments in post3
+2017-12-13 15:03:04,393 INFO     Number of comments in post0
+2017-12-13 15:03:04,393 INFO     Number of comments in post0
+2017-12-13 15:03:04,393 INFO     Number of comments in post1
+2017-12-13 15:03:04,393 INFO     Number of comments in post4
+2017-12-13 15:03:04,393 INFO     Number of comments in post0
+2017-12-13 15:03:04,393 INFO     Number of comments in post4
+2017-12-13 15:03:04,393 INFO     MMH1P
+2017-12-13 15:03:04,737 INFO     Only 1 picture in Gallery ignoring
+2017-12-13 15:03:04,737 INFO     Number of comments in post0
+2017-12-13 15:03:04,737 INFO     NWE37
+2017-12-13 15:03:05,071 INFO     Only 1 picture in Gallery ignoring
+2017-12-13 15:03:05,072 INFO     Number of comments in post0
+2017-12-13 15:03:05,072 INFO     3IXt9
+2017-12-13 15:03:05,465 INFO     Only 1 picture in Gallery ignoring
+2017-12-13 15:03:05,465 INFO     Number of comments in post1
+2017-12-13 15:03:05,465 INFO     Number of comments in post2
+2017-12-13 15:03:05,465 INFO     Number of comments in post0
+2017-12-13 15:03:05,465 INFO     Number of comments in post0
+2017-12-13 15:03:05,465 INFO     Number of comments in post4
+2017-12-13 15:03:05,465 INFO     Number of comments in post0
+2017-12-13 15:03:05,465 INFO     Number of comments in post0
+2017-12-13 15:03:05,465 INFO     Number of comments in post0
+2017-12-13 15:03:05,465 INFO     Number of comments in post1
+2017-12-13 15:03:05,465 INFO     Number of comments in post0
+2017-12-13 15:03:05,465 INFO     Number of comments in post0
+2017-12-13 15:03:05,466 INFO     Number of comments in post1
+2017-12-13 15:03:05,466 INFO     lX1vI
+2017-12-13 15:03:05,845 INFO     Only 1 picture in Gallery ignoring
+2017-12-13 15:03:05,846 INFO     Number of comments in post0
+2017-12-13 15:03:05,846 INFO     Number of comments in post4
+2017-12-13 15:03:05,846 INFO     UR5yt
+2017-12-13 15:03:06,260 INFO     Only 1 picture in Gallery ignoring
+2017-12-13 15:03:06,260 INFO     Number of comments in post1
+2017-12-13 15:03:06,261 INFO     Finished checkinging - waiting 1 minute
