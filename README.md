@@ -1,6 +1,6 @@
-# Project Title
+# Slideshow Reddit Bot
 
-Slideshow Reddit Bot - To compile Imgur galleries into slideshows with text and upload onto Streamable
+To compile Imgur galleries into slideshows with text and upload onto Streamable
 
 Slideshowbot will scan Top 25 posts of a given sub and check for any Imgur galleries.
 Once scanned these will compile into and slideshow avi and upload onto streamable where half of everyone will hate the result.
